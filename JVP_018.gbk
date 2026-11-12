@@ -1,5 +1,5 @@
-LOCUS       JV_5                 5835 bp    DNA     circular SYN 05-NOV-2026
-DEFINITION  .
+LOCUS       JVP_018              5835 bp    DNA     circular SYN 05-NOV-2026
+DEFINITION  JVP_018 circular sequencing consensus; e30-chip annotation cleanup.
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
@@ -7,159 +7,139 @@ SOURCE      .
   ORGANISM  .
             .
 COMMENT     Annotated with pLannotate v1.2.2
+COMMENT     Annotation-only cleanup against user-supplied e30-chip protein.
+            Original sequence and coordinates preserved. Backbone matches
+            inherited from pLannotate; not independently revalidated.
 FEATURES             Location/Qualifiers
-     rep_origin      complement(937..1525)
-                     /note="pLannotate"
-                     /label="ori"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="rep_origin"
-     rep_origin      complement(2581..3009)
-                     /note="pLannotate"
-                     /label="f1 ori"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="rep_origin"
+     source          1..5835
+                     /mol_type="other DNA"
+                     /note="Circular sequencing consensus; DNA sequence
+                     unchanged from JVP_018.gbk."
+     misc_feature    complement(join(5757..5835,1..302))
+                     /label="YPB1_ECOLX (homology match)"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=swissprot; identity=99.2%; reference
+                     coverage=96.2%; not independently revalidated. Retained as
+                     homology evidence; complete CDS boundaries not
+                     established."
      CDS             319..510
-                     /note="pLannotate"
                      /label="rop"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="CDS"
-     CDS             4263..5345
-                     /note="pLannotate"
-                     /label="lacI"
-                     /database="snapgene"
-                     /identity="99.9"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="CDS"
-     CDS             1647..2462
-                     /note="pLannotate"
-                     /label="KanR"
-                     /database="snapgene"
-                     /identity="99.8"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="CDS"
-     promoter        4185..4262
-                     /note="pLannotate"
-                     /label="lacI promoter"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="promoter"
-     terminator      complement(3046..3093)
-                     /note="pLannotate"
-                     /label="T7 terminator"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="terminator"
-     protein_bind    complement(3833..3857)
-                     /note="pLannotate"
-                     /label="lac operator"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="protein_bind"
-     RBS             complement(3796..3818)
-                     /note="pLannotate"
-                     /label="RBS"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="RBS"
-     promoter        complement(3858..3876)
-                     /note="pLannotate"
-                     /label="T7 promoter"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="promoter"
-     CDS             complement(3196..3723)
-                     /note="pLannotate"
-                     /label="STUB1 (fragment)"
-                     /database="swissprot"
-                     /identity="100.0"
-                     /match_length="58.1"
-                     /fragment="True"
-                     /other="CDS"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
      misc_feature    612..751
-                     /note="pLannotate"
                      /label="bom"
-                     /database="snapgene"
-                     /identity="99.3"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="misc_feature"
-     CDS             5394..5685
-                     /note="pLannotate"
-                     /label="TcR (fragment)"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="24.5"
-                     /fragment="True"
-                     /other="CDS"
-     CDS             3898..4177
-                     /note="pLannotate"
-                     /label="TcR (fragment)"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="23.5"
-                     /fragment="True"
-                     /other="CDS"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=99.3%; reference
+                     coverage=100.0%; not independently revalidated."
+     rep_origin      complement(937..1525)
+                     /label="ori"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     CDS             1647..2462
+                     /label="KanR"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=99.8%; reference
+                     coverage=100.0%; not independently revalidated."
      promoter        complement(2471..2528)
-                     /note="pLannotate"
                      /label="AmpR promoter (fragment)"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="56.3"
-                     /fragment="True"
-                     /other="promoter"
-     CDS             complement(join(5757..5835,1..302))
-                     /note="pLannotate"
-                     /label="YPB1_ECOLX"
-                     /database="swissprot"
-                     /identity="99.2"
-                     /match_length="96.2"
-                     /fragment="False"
-                     /other="CDS"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=56.3%; not independently revalidated."
+     rep_origin      complement(2581..3009)
+                     /label="f1 ori"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     terminator      complement(3046..3093)
+                     /label="T7 terminator"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     misc_feature    complement(3101..3150)
+                     /label="SET1 (partial match)"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=39.7%; not independently revalidated. Partial
+                     homology match; not annotated as a complete coding
+                     sequence."
+     CDS             complement(3163..3789)
+                     /gene="e30-chip"
+                     /label="e30-chip"
+                     /product="e30-chip with C-terminal 6xHis tag"
+                     /codon_start=1
+                     /transl_table=11
+                     /note="Sequence-derived CDS, including initiator
+                     methionine and terminal stop. User reference is 201 aa;
+                     observed reference-related segment is 197 aa
+                     (complement(3196..3786)). Alignment omits reference
+                     residues 22-25 (SGAS), with all remaining residues
+                     identical. Flanks encode N-terminal M and C-terminal
+                     VDGAHHHHHH. This discrepancy is relative to the supplied
+                     protein reference; raw sequencing reads were not
+                     assessed."
+                     /translation="MPTAPPYDSLLVFDYEGGSGSGRLNFGDDIPSALRIAKKKRWNS
+                     IEERRIHQESELHSYLSRLIAAERERELEECQRNHEGDEDDSHVRAQQACIEAKHDKY
+                     MADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSGITYDRKDIEEHLQRVG
+                     HFDPVTRSPLTQEQLIPNLAMKEVIDAFISENGWVEDYVDGAHHHHHH"
+     misc_feature    complement(3166..3183)
+                     /label="6xHis tag"
+                     /note="In-frame C-terminal HHHHHH within the e30-chip
+                     CDS."
+     misc_feature    complement(3184..3195)
+                     /label="C-terminal spacer (VDGA)"
+                     /note="In-frame VDGA between the reference-related segment
+                     and 6xHis tag."
+     misc_feature    complement(3724..3741)
+                     /label="GS linker (shortened)"
+                     /note="Observed GGSGSG; supplied reference has GGSGSGSGAS
+                     in the corresponding region. One exact alignment omits
+                     reference residues 22-25 (SGAS)."
+     RBS             complement(3796..3818)
+                     /label="RBS"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     protein_bind    complement(3833..3857)
+                     /label="lac operator"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     promoter        complement(3858..3876)
+                     /label="T7 promoter"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     misc_feature    3898..4177
+                     /label="TcR (partial match)"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=23.5%; not independently revalidated. Partial
+                     homology match; not annotated as a complete coding
+                     sequence."
+     promoter        4185..4262
+                     /label="lacI promoter"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=100.0%; not independently revalidated."
+     CDS             4263..5345
+                     /label="lacI"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=99.9%; reference
+                     coverage=100.0%; not independently revalidated."
      protein_bind    5358..5379
-                     /note="pLannotate"
                      /label="CAP binding site"
-                     /database="snapgene"
-                     /identity="95.5"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="protein_bind"
-     CDS             complement(3101..3150)
-                     /note="pLannotate"
-                     /label="SET1 (fragment)"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="39.7"
-                     /fragment="True"
-                     /other="CDS"
-     CDS             complement(3727..3792)
-                     /note="pLannotate"
-                     /label="CDH3 (fragment)"
-                     /database="swissprot"
-                     /identity="90.9"
-                     /match_length="4.5"
-                     /fragment="True"
-                     /other="CDS"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=95.5%; reference
+                     coverage=100.0%; not independently revalidated."
+     misc_feature    5394..5685
+                     /label="TcR (partial match)"
+                     /note="Inherited pLannotate v1.2.2 match;
+                     database=snapgene; identity=100.0%; reference
+                     coverage=24.5%; not independently revalidated. Partial
+                     homology match; not annotated as a complete coding
+                     sequence."
 ORIGIN
         1 atggtcttcg gtttccgtgt ttcgtaaagt ctggaaacgc ggaagtcagc gccctgcacc
        61 attatgttcc ggatctgcat cgcaggatgc tgctggctac cctgtggaac acctacatct
